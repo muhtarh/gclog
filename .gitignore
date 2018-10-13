@@ -118,3 +118,6 @@ chart/
 
 #vscode
 .vscode
+
+#logs
+logs/

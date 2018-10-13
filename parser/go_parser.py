@@ -44,4 +44,3 @@ def parse_gc_log_sorted(file_path):
     values = parse_gc_log(file_path)
     values.sort()
     return values
-

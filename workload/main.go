@@ -3,9 +3,8 @@ package main
 import "fmt"
 
 const windowSize int = 200000
-const msgCount int = 1000000
+const msgCount int = 200000
 const msgSize int = 2048
-const numThreads = 10
 
 var m map[int][msgSize]byte = make(map[int][msgSize]byte)
 
