@@ -1,4 +1,4 @@
 #!/bin/bash
 
-logPath='logs/'$1
-GODEBUG=gctrace=1 go run workload/main.go |& tee $logPath
+logPath='logs/go/'$1
+GODEBUG=gctrace=1 go run workload/go/main.go |& tee $logPath
