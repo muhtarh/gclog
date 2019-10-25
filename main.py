@@ -1,7 +1,7 @@
 import os
 import chart_generator as chart
 
-root = '/home/muhtar-hartopo/playground/go-exp/gc/logs/go'
+root = os.environ['GO_GC_LOG']
 for root, dirs, files in os.walk(root):
     for filename in files:
         filePath = os.path.join(root, filename)
